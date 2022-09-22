@@ -94,8 +94,8 @@ do{
             break;
     }
         var ans = prompt("Do you want to add more Cups: Y/N");
+        var cups = prompt("Enter number of Cups you want to add: ");
         ans==="Y" ? 
-        var cups = prompt("Enter number of Cups you want to add: ")
         coffee.addCups(cups)
         :
         console.log("Your Total Bill Amount: ", coffee.Bill());
